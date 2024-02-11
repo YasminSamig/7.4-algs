@@ -1,0 +1,232 @@
+import java.util.ArrayList;
+
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+        Algs algs = new Algs();
+        ArrayList<Integer> nums = new ArrayList<Integer>();
+        nums.add(1);
+        nums.add(2);
+        nums.add(2);
+        nums.add(3);
+        nums.add(3);
+        ArrayList<Integer> percy = new ArrayList<Integer>();
+        percy.add(2);
+        percy.add(4);
+        percy.add(4);
+        percy.add(4);
+        percy.add(6);
+        ArrayList<Integer> anna = new ArrayList<Integer>();
+        anna.add(1);
+        anna.add(1);
+        anna.add(4);
+        anna.add(4);
+        anna.add(0);
+
+
+        ArrayList<Integer> grover = new ArrayList();
+        grover.add(1);
+        grover.add(2);
+        grover.add(2);
+        grover.add(3);
+        grover.add(3);
+        ArrayList<Integer> piper = new ArrayList();
+        piper.add(2);
+        piper.add(2);
+        piper.add(3);
+        piper.add(2);
+        piper.add(4);
+        ArrayList<Integer> jason = new ArrayList();
+        jason.add(6);
+        jason.add(5);
+        jason.add(7);
+        jason.add(7);
+        jason.add(5);
+
+        ArrayList<Integer> leo = new ArrayList();
+        leo.add(1);
+        leo.add(2);
+        leo.add(2);
+        leo.add(3);
+        leo.add(3);
+        ArrayList<Integer> hazel = new ArrayList();
+        hazel.add(3);
+        hazel.add(6);
+        hazel.add(8);
+        hazel.add(9);
+        hazel.add(22);
+        ArrayList<Integer> frank = new ArrayList();
+        frank.add(1);
+        frank.add(2);
+        frank.add(5);
+        frank.add(7);
+        frank.add(9);
+
+        ArrayList<Integer> hedge = new ArrayList();
+        hedge.add(3);
+        hedge.add(2);
+        hedge.add(1);
+        ArrayList<Integer> nico = new ArrayList();
+        nico.add(2);
+        nico.add(5);
+        nico.add(7);
+        nico.add(9);
+        nico.add(2);
+        ArrayList<Integer> will = new ArrayList();
+        will.add(2);
+        will.add(9);
+        will.add(7);
+        will.add(2);
+        will.add(5);
+
+        ArrayList<String> reyna = new ArrayList<String>();
+        reyna.add("Hello,");
+        reyna.add("World");
+        reyna.add("!");
+        ArrayList<String> ham = new ArrayList();
+        ham.add("girlboss,,");
+        ham.add("gaslight,");
+        ham.add("gatekeep");
+        ArrayList<String> katie = new ArrayList();
+        katie.add("paper");
+        katie.add("scissors");
+        katie.add("rock");
+
+        ArrayList<Integer> gul = new ArrayList();
+        gul.add(2);
+        gul.add(3);
+        gul.add(4);
+        ArrayList<Integer> mom = new ArrayList();
+        mom.add(-1);
+        mom.add(-2);
+        mom.add(-3);
+        ArrayList<Integer> dad = new ArrayList();
+        dad.add(6);
+        dad.add(8);
+        dad.add(4);
+
+        ArrayList<Double> ahm = new ArrayList();
+        ahm.add(1.5);
+        ahm.add(3.5);
+        ahm.add(5.5);
+        ArrayList<Double> ley = new ArrayList();
+        ley.add(2.5);
+        ley.add(7.5);
+        ley.add(3.5);
+        ArrayList<Double> kam = new ArrayList();
+        kam.add(1.5);
+        kam.add(6.5);
+        kam.add(4.5);
+
+        ArrayList<Integer> holmer = new ArrayList();
+        holmer.add(1);
+        holmer.add(2);
+        holmer.add(3);
+        holmer.add(3);
+        holmer.add(4);
+        ArrayList<Integer> armen = new ArrayList();
+        armen.add(1);
+        armen.add(2);
+        armen.add(3);
+        ArrayList<Integer> tea = new ArrayList();
+        tea.add(6);
+        tea.add(4);
+        tea.add(6);
+
+        ArrayList<Integer> cup = new ArrayList();
+        cup.add(1);
+        cup.add(0);
+        cup.add(-1);
+        ArrayList<Integer> kat = new ArrayList();
+        kat.add(-6);
+        kat.add(4);
+        kat.add(6);
+
+        ArrayList<Integer> sardo = new ArrayList();
+        sardo.add(1);
+        sardo.add(2);
+        sardo.add(3);
+        sardo.add(2);
+        ArrayList<Integer> revi = new ArrayList();
+        revi.add(3);
+        revi.add(2);
+        revi.add(3);
+        revi.add(1);
+        revi.add(4);
+        ArrayList<Integer> shutes = new ArrayList();
+        shutes.add(1);
+        shutes.add(2);
+        shutes.add(6);
+
+
+        algs.deler(nums);
+        System.out.println(nums);
+        algs.deler(percy);
+        System.out.println(percy);
+        algs.deler(anna);
+        System.out.println(anna);
+
+        algs.dupli(grover, 2);
+        System.out.println(grover);
+        algs.dupli(piper, 2);
+        System.out.println(piper);
+        algs.dupli(jason, 7);
+        System.out.println(jason);
+
+        algs.ascend(leo, 4);
+        System.out.println(leo);
+        algs.ascend(hazel, 7);
+        System.out.println(hazel);
+        algs.ascend(frank, 6);
+        System.out.println(frank);
+
+        System.out.println(algs.revse(nums, hedge));
+        System.out.println(algs.revse(nums, nico));
+        System.out.println(algs.revse(nico, will));
+
+        System.out.println(algs.maxi(hedge));
+        System.out.println(algs.maxi(nico));
+        System.out.println(algs.maxi(hazel));
+
+        System.out.println(algs.mini(hedge));
+        System.out.println(algs.mini(nico));
+        System.out.println(algs.mini(hazel));
+
+        System.out.println(algs.shorty(reyna));
+        System.out.println(algs.shorty(ham));
+        System.out.println(algs.shorty(katie));
+
+        System.out.println(algs.longy(reyna));
+        System.out.println(algs.longy(ham));
+        System.out.println(algs.longy(katie));
+
+        System.out.println(algs.largy(gul, mom));
+        System.out.println(algs.largy(mom, dad));
+        System.out.println(algs.largy(dad,gul));
+
+        System.out.println(algs.meany(ahm));
+        System.out.println(algs.meany(ley));
+        System.out.println(algs.meany(kam));
+
+        algs.reverse(nums);
+        System.out.println(nums);
+        algs.reverse(percy);
+        System.out.println(percy);
+        algs.reverse(anna);
+        System.out.println(anna);
+
+        System.out.println(algs.consecu(holmer));
+        System.out.println(algs.consecu(armen));
+        System.out.println(algs.consecu(tea));
+
+        System.out.println(algs.negative(cup));
+        System.out.println(algs.negative(nums));
+        System.out.println(algs.negative(kat));
+
+        System.out.println(algs.reoccur(sardo));
+        System.out.println(algs.reoccur(revi));
+        System.out.println(algs.reoccur(shutes));
+    }
+
+}
